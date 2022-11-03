@@ -1,0 +1,32 @@
+html {
+    font-size: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #88bebc;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    size: 100px 300px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: .5;
+}
+
+body {
+    width: 700px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    background-color: #ffffff;
+    border: 3px solid black;
+}
