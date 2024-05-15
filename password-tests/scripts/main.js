@@ -12,7 +12,7 @@ swatch.onclick = () => {
     const crntImg = swatch.getAttribute("src")
     if(localStorage.vCode === "december" && crntImg === "images/food.png") {
         swatch.setAttribute("src", "images/betterfood.png");
-        textString.textContent = "Welcome to the show >:D";
+        textString.textContent = "Welcome to the show";
         bg.style.backgroundColor = 'red';
     } else if(crntImg === "images/betterfood.png") {
         swatch.setAttribute("src", "images/food.png");
