@@ -1,9 +1,24 @@
+/* Welcome to pain incarnate 
+Standard CSS Layout:
+[ELEMENTS] {
+    [Style Option],
+    [Style Option],
+    etc
+}
+*/
+
+/* This calls to the entire "html" element, setting a standard font, font size, and bg color */
 html {
     font-size: 10px;
     font-family: 'Ubuntu', sans-serif;
     background-color: #592323;
 }
 
+/* This makes the header, well, a header, otherwise it will look like plain text
+Text align works according to its bounds, like if you place something in a box element and align, it'll be based off of the box
+Padding is a fancy way of saying "Push it this much this way", use mozilla docs for the exacts
+Text shadow is an interesting thing, I recommend everyone test around with it and find what values fit their websites best
+*/
 h1 {
     font-size: 60px;
     text-align: center;
@@ -13,6 +28,9 @@ h1 {
     text-shadow: 3px 3px 1px black;
 }
 
+/* This is the first time you will see two elements affected at once, you can do this with the comma before the standard input setup
+Line height and letter spacing are both self-explainable, standard unit is pixels(px)
+*/
 p,
 li {
     font-size: 16px;
@@ -20,6 +38,12 @@ li {
     letter-spacing: 0.5px;
 }
 
+/* Welcome to the box maker
+This  forms a box with the width of 600 pixels
+The margins are automatic
+Bg color, what a pain, VSC has a plugin to aide in finding direct names, otherwise find the hex options
+Border is self-explainable
+*/
 body {
     width: 600px;
     margin: 0 auto;
@@ -28,6 +52,7 @@ body {
     border: 5px solid black;
 }
 
+/* Just use block display for images :) */
 img {
     display: block;
     margin: 0 auto;
