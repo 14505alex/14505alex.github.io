@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
+        <!-- Use UTF-8, its the standard alphabet -->
         <meta charset="utf-8" />
+        <!-- One issue a lot of sites make, they don't make it so the viewport(what you see) changes depending on the screen width -->
         <meta name="viewport" content="device-width">
+        <!-- This is the CSS file, or Cascading Style Sheet, it handles every little design aspect -->
         <link href="styles/style.css" rel="stylesheet" />
+        <!-- This is your font, I recommend using google fonts to find nice fonts, they also give you the code snippet you will input -->
         <link
         href="font-family: 'Ubuntu', sans-serif;"
         rel="stylesheet" />
         <title>Learners page</title>
     </head>
     <body>
+        <!-- H1 is the big header -->
         <h1>The playground for me</h1>
+        <!-- Images use the img and need a src in the form of a filepath, alt is the text that appears when you hover over the image -->
         <img src="images/coffee.png" alt="A cup of coffee"/>
         <p>I like coffee and this is a test</p>
         <p>Learning to make coffee is a</p>
@@ -23,8 +29,11 @@
 
         <p>skill</p>
 
+        <!-- a is a link, href is the destination, in this case its youtube -->
         <a href="https://www.youtube.com/watch?v=HJq6xZgEqkY">Coffee!</a>
+        <!-- Without scripting, this is a button that does nothing, see the js file for how it works-->
         <button>Change person</button>
+        <!-- This will load the entire script from the src, in this case it's main.js, this does not show anything on the page unless your script changes that -->
         <script src="scripts/main.js"></script>
     </body>
 </html>
